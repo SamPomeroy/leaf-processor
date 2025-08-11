@@ -1,0 +1,23 @@
+# Logs and temporary files
+*.log
+**pycache**/
+*.pyc
+
+# Config files with sensitive data
+clickup_lists.json
+.env
+
+# Data directories (if they come back)
+data/
+logs/
+previews/
+
+# IDE and OS
+.vscode/
+.DS_Store
+.venv/
+*.log
+__pycache__/
+*.pyc
+cloudflared-linux-amd64.deb
+*.deb
